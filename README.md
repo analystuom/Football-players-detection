@@ -8,13 +8,16 @@ This is the first model in the pipeline. It takes a single frame within a video 
 
 ### Image Classfication Model
 After detecting the position of each players, the second model, which is a classifier will predict the jersey number of the corresponding players. It takes the crop image of the players as the input.
-There are two classification models that were trained in this section: One using a customed CNN architecture: MyCNN and one model using transfer learning setup with ResNet50
+There are two classification models that were trained in this section: One using a customed CNN architecture: MyCNN and one model using transfer learning setup with ResNet50.
+
+In general, the first model outperformed the second one with 97% accuracy while the second one only achived 75% accuracy
 
 #### Results of the first model using transfer learning setup with MyCNN
 Train Loss:
 <img width="1318" alt="image" src="https://github.com/user-attachments/assets/cfe6292b-91d6-4ec0-8b58-0639b3cbd684" />
 
 Val Accuracy and Val Loss:
+</br>
 ![image](https://github.com/user-attachments/assets/696ffe1a-c09b-4269-a0ef-e87be1539681)
 
 Confusion Matrix:
@@ -26,6 +29,7 @@ Train Loss:
 ![image](https://github.com/user-attachments/assets/99ff06c1-a2e4-42bc-a9fa-aa6e3fa75cd3)
 
 Val Accuracy and Val Loss:
+</br>
 ![image](https://github.com/user-attachments/assets/bbc0f0b3-b9bc-4cbf-9e01-4e6fc65738c1)
 
 Confusion Matrix:
