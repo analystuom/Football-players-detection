@@ -36,7 +36,7 @@ Confusion Matrix:
 ![image](https://github.com/user-attachments/assets/4a37245d-8c2c-4d73-82b3-152d3b9a2b36)
 
 
-### An example of a frame in output result:
+### An example of a frame in the output videos:
 <img width="1334" alt="image" src="https://github.com/user-attachments/assets/3b91b3c1-cf94-4220-ab97-3aa463ca0bc0" />
 
 
