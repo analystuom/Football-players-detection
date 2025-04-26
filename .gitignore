@@ -1,0 +1,10 @@
+/football_train/
+/image_classification/checkpoints_mycnn
+/image_classification/checkpoints_resnet50
+/image_classification/football_train
+/image_classification/player_images/
+/object_detection/data
+/object_detection/kaggle
+/object_detection/best.pt
+/object_detection/data.yaml
+/output_results/
